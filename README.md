@@ -2,6 +2,9 @@
 
 The File Input Preview plugin is a jQuery plugin that enhances the file input element by displaying selected files next to the input and providing an option to unselect any file.
 
+## Screenshot
+![jquery-file-input-preview-screenshot](https://github.com/nabeeljavaid/jquery-file-input-preview/assets/2786954/3523bbb3-3827-400b-a4c2-c28b9809c8ce)
+
 ## Usage
 
 1. Include the jQuery library and the plugin script in your HTML file:
