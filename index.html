@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JQuery File Input Preview Plugin</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="file-input-preview.js"></script>
+  <link rel="stylesheet" href="file-input-preview.css">
+</head>
+<body>
+  <h1>JQuery File Input Preview Plugin</h1>
+
+  <div class="selected-files-container">
+    <label for="fileInput" class="file-input-label">
+      <span class="button-label">Choose Files</span>
+    </label>
+  </div>
+  
+  <input type="file" id="fileInput" multiple>
+
+  <script>
+    $(document).ready(function() {
+      $('#fileInput').fileInputPreview();
+    });
+  </script>
+</body>
+</html>
+

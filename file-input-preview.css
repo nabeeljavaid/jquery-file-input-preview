@@ -1,0 +1,62 @@
+.selected-files-container {
+  position: relative;
+}
+
+.selected-files {
+  margin-top: 10px;
+}
+
+.file-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.remove-button {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 2px 5px;
+  border-radius: 3px;
+  background-color: #ff5f5f;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.clear-button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #ff5f5f;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.clear-button:hover,
+.remove-button:hover {
+  background-color: #ff3f3f;
+}
+
+.has-files .clear-button {
+  display: block;
+}
+/* Hide the default file input */
+input[type="file"] {
+  display: none;
+}
+.file-input-label {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #f9f9f9;
+  color: #555;
+  cursor: pointer;
+}
+
+.file-input-label:hover {
+  background-color: #f1f1f1;
+}
+
